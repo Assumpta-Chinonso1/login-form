@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.login-container{
+    background-color: #7e57c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-box{
+    background-color: #d2e2fd;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+}
+
+.login-title{
+    font-size: 2rem;
+    color: #7e57c2;
+    margin-bottom: 10px;
+}
+
+.login-subtitle{
+    color: #7e57c2;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+    color : #6f4b94;
+}
+
+
+
+.login-input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-button{
+    width: 100%;
+    padding: 10px;
+    background-color: #4295f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.login-forgot{
+ display: block;
+ color: #7e57c2;
+ margin-top: 10px;
+ text-decoration: none;
+}
+
+.login-footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialLinks{
+    border: none;
+    padding: 5px;
+    background-color: #d2e2fd;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
